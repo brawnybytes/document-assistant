@@ -1,4 +1,4 @@
-# Document Assistant
+# AI-Powered Document Assistant
 
 RAG-based document Q&A. Upload a PDF, ask questions about it, get answers
 grounded in the document with page-level citations.
