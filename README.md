@@ -3,11 +3,6 @@
 RAG-based document Q&A. Upload a PDF, ask questions about it, get answers
 grounded in the document with page-level citations.
 
-## Why this exists
-
-Built to replace a resume line that was listed before it was actually built.
-Every layer below was built and tested manually, end to end.
-
 ## Architecture
 
 Upload -> PDFBox text extraction (page-aware) -> chunking (overlap) ->
