@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/docassistant
+    username: postgres
+    password: postgres
+  sql:
+    init:
+      mode: always
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+
+ollama:
+  base-url: http://localhost:11434
+  embedding-model: nomic-embed-text
+  embedding-dimensions: 768
+  chat-model: qwen3:8b
